@@ -1,2 +1,4 @@
-Hello GIT Repos!!
-Welcome to GIT world
+#!/usr/bin/bash
+
+ls
+head /etc/passwd
