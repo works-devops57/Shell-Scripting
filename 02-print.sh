@@ -11,5 +11,24 @@
 
 echo Hello World!
 
+# Syntax for color or new lines : echo -e "MESSAGES\n\t\e"
+# echo -e option do need message to be quoted (Either Single or Double Quotes) | Without quotes also work but with more syntaxing
+
+# Print Multiple Lines (\n), Some tab space (\t)
+
+echo -e "Hello World, \n\tWelcome"
+
+# Enable Colors (\e)
+
+# Syntax : echo -e "\e[COLOR-CODEmMESSAGE"
+# COLORS AND THERE CODES ARE :
+#    RED      31
+#    GREEN    32
+#    YELLOW   33
+#    BLUE     34
+#    MAGNETA  35
+#    CYAN     36
 
 
+echo -e "\e[31mMESSAGE IN RED"
+echo -e "\e[33mMESSAGE IN YELLOW"
