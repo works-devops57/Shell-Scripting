@@ -29,6 +29,6 @@ echo -e "Hello World, \n\tWelcome"
 #    MAGNETA  35
 #    CYAN     36
 
-
-echo -e "\e[31mMESSAGE IN RED"
-echo -e "\e[33mMESSAGE IN YELLOW"
+# Colors enabled will take those colors to next lines, Hence we need to disable color when we are done with color printing i.e \e[0m, 0 will reset the color
+echo -e "\e[31mMESSAGE IN RED\e[0m"
+echo -e "\e[33mMESSAGE IN YELLOW\e[0m"
