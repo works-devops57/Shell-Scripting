@@ -1,6 +1,6 @@
 #!/bin/bash
 
-A=10
+A=50
 echo  A= $A
 DATE="2021-07-18"
 echo Welcome, Today date is $DATE
