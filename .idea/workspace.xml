@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="410c1e9a-66a4-414b-b165-03b7af2eb31f" name="Default Changelist" comment="Displayed input values">
+    <list default="true" id="410c1e9a-66a4-414b-b165-03b7af2eb31f" name="Default Changelist" comment="Function Declaration in Shell Scripting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +23,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -181,7 +184,35 @@
       <option name="project" value="LOCAL" />
       <updated>1626618804733</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Function Declaration in Shell Scripting">
+      <created>1626625735169</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1626625735169</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Function Declaration in Shell Scripting">
+      <created>1626625965635</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1626625965635</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Function Declaration in Shell Scripting">
+      <created>1626626483411</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1626626483411</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Function Declaration in Shell Scripting">
+      <created>1626626581888</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1626626581888</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +244,7 @@
     <MESSAGE value="Current Date Substitution" />
     <MESSAGE value="Take Value as a Input" />
     <MESSAGE value="Displayed input values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Displayed input values" />
+    <MESSAGE value="Function Declaration in Shell Scripting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Function Declaration in Shell Scripting" />
   </component>
 </project>
