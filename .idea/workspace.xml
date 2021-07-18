@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="410c1e9a-66a4-414b-b165-03b7af2eb31f" name="Default Changelist" comment="Changed applied" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1vDweVhGxn551CZ0fqWQr7aRORZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="410c1e9a-66a4-414b-b165-03b7af2eb31f" name="Default Changelist" comment="" />
+      <created>1626110076488</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626110076488</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Demonstrating how the DevOps &amp; GIT Repos work together">
+      <created>1626110768474</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626110768474</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Demo on adding new content in file">
+      <created>1626112381057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626112381057</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Demo on adding new content in 01-shell file">
+      <created>1626113369152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626113369152</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding New Content">
+      <created>1626447423859</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626447423859</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding She-Bang Details">
+      <created>1626454367649</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1626454367649</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Comments few line">
+      <created>1626455769422</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626455769422</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Print Something on o/p window">
+      <created>1626456720159</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626456720159</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding color codes in o/p">
+      <created>1626458206992</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1626458206992</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Enable/Disable color codes in o/p">
+      <created>1626602682567</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1626602682567</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Enable/Disable color codes in o/p">
+      <created>1626602898518</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1626602898518</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Enable/Disable color codes in o/p">
+      <created>1626603110352</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1626603110352</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Demonstrating how the DevOps &amp; GIT Repos work together" />
+    <MESSAGE value="Demo on adding new content in file" />
+    <MESSAGE value="Demo on adding new content in 01-shell file" />
+    <MESSAGE value="Adding New Content" />
+    <MESSAGE value="Adding She-Bang Details" />
+    <MESSAGE value="Comments few line" />
+    <MESSAGE value="Print Something on o/p window" />
+    <MESSAGE value="Adding color codes in o/p" />
+    <MESSAGE value="Enable/Disable color codes in o/p" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enable/Disable color codes in o/p" />
+  </component>
+</project>
