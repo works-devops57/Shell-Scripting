@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="410c1e9a-66a4-414b-b165-03b7af2eb31f" name="Default Changelist" comment="Changed applied" />
+    <list default="true" id="410c1e9a-66a4-414b-b165-03b7af2eb31f" name="Default Changelist" comment="Take Value as a Input">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +111,70 @@
       <option name="project" value="LOCAL" />
       <updated>1626603110352</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Changed applied">
+      <created>1626603404592</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1626603404592</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Changed applied">
+      <created>1626603714569</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1626603714569</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Changed applied to disable color">
+      <created>1626603904259</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1626603904259</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Changed applied to disable color">
+      <created>1626603984810</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1626603984810</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Command Substitution">
+      <created>1626609910466</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1626609910466</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Current Date">
+      <created>1626610198763</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1626610198763</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Current Date Substitution">
+      <created>1626610682928</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1626610682928</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Current Date Substitution">
+      <created>1626610951324</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1626610951324</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Take Value as a Input">
+      <created>1626617992720</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1626617992720</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +199,12 @@
     <MESSAGE value="Print Something on o/p window" />
     <MESSAGE value="Adding color codes in o/p" />
     <MESSAGE value="Enable/Disable color codes in o/p" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enable/Disable color codes in o/p" />
+    <MESSAGE value="Changed applied" />
+    <MESSAGE value="Changed applied to disable color" />
+    <MESSAGE value="Command Substitution" />
+    <MESSAGE value="Current Date" />
+    <MESSAGE value="Current Date Substitution" />
+    <MESSAGE value="Take Value as a Input" />
+    <option name="LAST_COMMIT_MESSAGE" value="Take Value as a Input" />
   </component>
 </project>
