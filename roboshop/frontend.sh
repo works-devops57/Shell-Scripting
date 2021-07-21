@@ -5,7 +5,7 @@ rm -f $LOG
 
 echo -n -e "Installing Nginx\t\t..."
 yum install nginx -y  &>>$LOG
-if [$? -eq 0]; then
+if [ $? -eq 0 ]; then
   echo done
 else
   echo fail
