@@ -23,7 +23,7 @@ PRINT "Start MongoDB Service\t"
 systemctl enable mongod &>>$LOG && systemctl start mongod &>>$LOG
 STAT_CHECK $?
 
-PRINT " Download MongoDB Schema\t"
+PRINT "Download MongoDB Schema\t"
 curl -s -L -o /tmp/mongodb.zip "https://github.com/roboshop-devops-project/mongodb/archive/main.zip" &>>$LOG
 STAT_CHECK $?
 
