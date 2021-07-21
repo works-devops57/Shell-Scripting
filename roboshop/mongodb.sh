@@ -15,25 +15,20 @@ PRINT "Install MongoDB\t\t"
 yum install -y mongodb-org &>>$LOG
 STAT_CHECK $?
 
-#PRINT "Update MongoDB Listen Address"
-#sed -i -e 's/127.0.0.1/0.0.0.0' /etc/mongod.conf
+PRINT "Update MongoDB Listen Address"
+sed -i -e 's/127.0.0.1/0.0.0.0' /etc/mongod.conf
+STAT_CHECK $?
+
+PRINT "Start MongoDB Service\t"
+systemctl enable mongod &>>$LOG && systemctl start mongod &>>$LOG
+STAT_CHECK $?
+
+PRINT " Download MongoDB Schema\t"
+curl -s -L -o /tmp/mongodb.zip "https://github.com/roboshop-devops-project/mongodb/archive/main.zip" &>>$LOG
+STAT_CHECK $?
+
+PRINT "Load Schema\t\t\t"
+cd /tmp && unzip mongodb.zip && cd mongodb-main && mongo < catalogue.js && mongo < users.js
+STAT_CHECK $?
 
 
-#Update Liste IP address from 127.0.0.1 to 0.0.0.0 in config file
-#Config file: /etc/mongod.conf
-
-# systemctl enable mongod
-# systemctl start mongod
-
-
-# systemctl restart mongod
-#Every Database needs the schema to be loaded for the application to work.
-#Download the schema and load it.
-
-# curl -s -L -o /tmp/mongodb.zip "https://github.com/roboshop-devops-project/mongodb/archive/main.zip"
-
-# cd /tmp
-# unzip mongodb.zip
-# cd mongodb-main
-# mongo < catalogue.js
-# mongo < users.js
