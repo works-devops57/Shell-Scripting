@@ -3,6 +3,12 @@
 LOG=/tmp/roboshop.log
 rm -f $LOG
 
+USER_ID=${id -u}
+if [ $USER_ID -ne 0 ]; then
+  echo -e "\e[You Should be root user/sudo to run this script\e[0m"
+  exit 2
+fi
+
 STAT_CHECK() {
   if [ $1 -eq 0 ]; then
   echo -e "\e[32m done\e[0m"
@@ -16,8 +22,3 @@ PRINT() {
   echo -n -e "$1\t\t..."
 }
 
-USER_ID=${id -u}
-if [ $USER_ID -ne 0 ]; then
-  echo -e "\e[You Should be root user/sudo to run this script\e[0m"
-  exit 2
-fi
