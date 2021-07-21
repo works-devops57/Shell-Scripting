@@ -4,11 +4,11 @@ LOG=/tmp/roboshop.log
 rm -f $LOG
 
 echo -n -e "Installing Nginx\t\t... "
-yum install nginx -y  &>>$LOG
+yumm install nginx -y  &>>$LOG
 if [ $? -eq 0 ]; then
   echo -e "\e[32m done\e[0m"
 else
-  echo fail
+  echo -e "\e[32m fail\e[0m"
 fi
 ## 1. Output from command should not be displayed on screen
 ## 2. Validate the command is successful or not
@@ -19,7 +19,7 @@ systemctl enable nginx &>>$LOG
 if [ $? -eq 0 ]; then
   echo -e "\e[32m done\e[0m"
 else
-  echo fail
+  echo -e "\e[32m fail\e[0m"
 fi
 
 echo -n -e "Starting Nginx\t\t\t... "
@@ -27,5 +27,5 @@ systemctl start nginx  &>>$LOG
 if [ $? -eq 0 ]; then
   echo -e "\e[32m done\e[0m"
 else
-  echo fail
+  echo -e "\e[32m fail\e[0m"
 fi
