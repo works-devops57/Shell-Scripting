@@ -16,3 +16,4 @@ STAT_CHECK $?
 
 PRINT "Start Redis Service"
 systemctl enable redis &>>$LOG && systemctl start redis &>>$LOG
+STAT_CHECK $?
