@@ -6,8 +6,8 @@ PRINT "Install Redis Repos"
 yum install epel-release yum-utils http://rpms.remirepo.net/enterprise/remi-release-7.rpm -y &>>$LOG
 STAT_CHECK $?
 
-PRINT "Install Redis\t"
-yum install redis -y --enablerepo= remi &>>$LOG
+PRINT "Install Redis\t\t"
+yum install redis -y --enablerepo=remi &>>$LOG
 STAT_CHECK $?
 
 PRINT "Update Redis Listen Address"
